@@ -7,6 +7,7 @@ const Resume = require('../model/ResumeModel');
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
+// module.exports = upload;
 
 const uploaded =  async (req, res) => {
   try {
